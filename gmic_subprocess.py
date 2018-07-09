@@ -86,8 +86,8 @@ def inpaint(frame):
     print("Inpainting Tracked Image using GMIC")
     unique_filename = str(uuid.uuid4())
 
-    in_file = unique_filename + '_in.png'
-    out_file = unique_filename + '_out.png'
+    in_file = 'results/' + unique_filename + '_in.png'
+    out_file = 'results/' + unique_filename + '_out.png'
 
     # write frame to image in
     # so gmic can operate on it
