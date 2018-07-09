@@ -172,7 +172,7 @@ if __name__ == '__main__' :
 
 
     # Try to open camera stream 
-    cam = cv2.VideoCapture(://drive.google.com/file/d/1Abehs9ZjpIzOH9ZyvZmj9qcskcZPdYaU/view?usp=sharing1)
+    cam = cv2.VideoCapture(0)
     
     # Exit if video not opened 
     if not cam.isOpened():
